@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Nav from "../Nav"
+import ImgCard from "../ImgCard";
 
 class Score extends Component {
   state = {
@@ -16,7 +17,6 @@ class Score extends Component {
         <Nav 
           score={this.state.score}
           topScore={this.state.score}
-          increaseScore={this.increaseScore}
         />
       </div>
     );

@@ -14,7 +14,6 @@ function Nav(props) {
         </li>
         <li className="nav-item">
         <p>Score: {props.score} | Top Score: {props.topScore}</p>
-        <button onClick={props.increaseScore}>button</button>
         </li>
       </ul>
   );

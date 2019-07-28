@@ -1,10 +1,10 @@
 import React from "react";
-import Pic1 from "../../Images/showcase.jpeg"
+import "./style.css";
 
-function ImgCard() {
+function ImgCard(props) {
     return(
         <div className="card">
-            <img src={Pic1} alt="pic1"/>
+            <img src={props.image} alt={props.id} onClick={props.increaseScore}/>
         </div>
     )
 }

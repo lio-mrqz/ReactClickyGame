@@ -1,13 +1,26 @@
-import React from "react";
-// import Pic1 from "../../Images/showcase.jpeg"
-import ImgCard from "../ImgCard";
+import React from 'react';
+import imageList from '../../imageList.json'
+import ImgCard from '../ImgCard';
+// import { log } from 'util';
 
-function GameArea() {
+class GameArea extends React.Component {
+    state = {
+        imageList
+    } 
+    render() {
     return(
         <div className="wrapper">
-            <ImgCard />
+            {this.state.imageList.map(image => (
+            <ImgCard 
+              id={image.id}
+              key={image.id}
+              image={image.image}
+            />
+            ))}
+            {console.log(ImgCard.image)}
         </div>
     )
+    } 
 }
 
 export default GameArea;
