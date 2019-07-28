@@ -1,12 +1,11 @@
 import React from "react";
-import Pic1 from "../../Images/showcase.jpeg"
+// import Pic1 from "../../Images/showcase.jpeg"
+import ImgCard from "../ImgCard";
 
 function GameArea() {
     return(
         <div className="wrapper">
-            <div className="card">
-                <img src={Pic1} className="card-img" alt="..."/>
-            </div>
+            <ImgCard />
         </div>
     )
 }

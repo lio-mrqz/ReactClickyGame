@@ -1,12 +1,12 @@
 import React from 'react';
-import Nav from './components/Nav'
+import Score from './components/Score'
 import GameArea from './components/GameArea'
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Nav />
+      <Score />
       <GameArea />
     </div>
   );

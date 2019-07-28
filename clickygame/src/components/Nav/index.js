@@ -1,8 +1,7 @@
 import React from "react";
 import GuessMessage from "../GuessMessage";
-import Score from "../Score"
 
-function Nav() {
+function Nav(props) {
   return (
       <ul className="nav nav-pills nav-fill">
         <li className="brand nav-item">
@@ -14,7 +13,8 @@ function Nav() {
             <GuessMessage />
         </li>
         <li className="nav-item">
-            <Score />
+        <p>Score: {props.score} | Top Score: {props.topScore}</p>
+        <button onClick={props.increaseScore}>button</button>
         </li>
       </ul>
   );
