@@ -8,6 +8,9 @@ class GameArea extends React.Component {
         imageList
     } 
     render() {
+        const imageClick = () => {
+            console.log('Click')
+        }
     return(
         <div className="wrapper">
           <div className="card-columns">

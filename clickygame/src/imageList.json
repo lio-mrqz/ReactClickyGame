@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "http://lorempixel.com/170/170"
+    "image": "require('../../assets/images/showcase.jpeg')"
   },
   {
     "id": 2,
