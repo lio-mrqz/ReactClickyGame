@@ -1,7 +1,7 @@
 import React from 'react';
 import imageList from '../../imageList.json'
 import ImgCard from '../ImgCard';
-// import { log } from 'util';
+import './style.css'
 
 class GameArea extends React.Component {
     state = {
@@ -10,6 +10,7 @@ class GameArea extends React.Component {
     render() {
     return(
         <div className="wrapper">
+          <div className="card-columns">
             {this.state.imageList.map(image => (
             <ImgCard 
               id={image.id}
@@ -17,7 +18,7 @@ class GameArea extends React.Component {
               image={image.image}
             />
             ))}
-            {console.log(ImgCard.image)}
+          </div>
         </div>
     )
     } 

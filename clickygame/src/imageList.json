@@ -1,30 +1,34 @@
 [
   {
     "id": 1,
-    "image": "http://lorempixel.com/100/100"
+    "image": "http://lorempixel.com/170/170"
   },
   {
     "id": 2,
-    "image": "http://lorempixel.com/100/101"
+    "image": "http://lorempixel.com/170/171"
   },
   {
     "id": 3,
-    "image": "http://lorempixel.com/100/102"
+    "image": "http://lorempixel.com/170/172"
   },
   {
     "id": 4,
-    "image": "http://lorempixel.com/100/103"
+    "image": "http://lorempixel.com/170/173"
   },
   {
     "id": 5,
-    "image": "http://lorempixel.com/100/99"
+    "image": "http://lorempixel.com/170/169"
   },
   {
     "id": 6,
-    "image": "http://lorempixel.com/100/98"
+    "image": "http://lorempixel.com/170/168"
   },
   {
     "id": 7,
-    "image": "http://lorempixel.com/100/97"
+    "image": "http://lorempixel.com/170/167"
+  },
+  {
+    "id": 8,
+    "image": "http://lorempixel.com/170/167"
   }
 ]
