@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import Nav from "../Nav"
-import ImgCard from "../ImgCard";
+// import ImgCard from "../ImgCard";
 
 class Score extends Component {
   state = {

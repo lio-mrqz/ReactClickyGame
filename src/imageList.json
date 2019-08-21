@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "require('../../assets/images/showcase.jpeg')"
+    "image": "/static/media/showcase.bc44d4aa.jpeg"
   },
   {
     "id": 2,
@@ -9,7 +9,7 @@
   },
   {
     "id": 3,
-    "image": "http://lorempixel.com/170/172"
+    "image": "http://lorempixel.com/170/170"
   },
   {
     "id": 4,
@@ -29,6 +29,6 @@
   },
   {
     "id": 8,
-    "image": "http://lorempixel.com/170/167"
+    "image": "http://lorempixel.com/169/170"
   }
 ]
