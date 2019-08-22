@@ -1,34 +1,26 @@
 [
   {
     "id": 1,
-    "image": "/static/media/showcase.bc44d4aa.jpeg"
+    "image": "/static/media/cabin.56ec4ee7.png"
   },
   {
     "id": 2,
-    "image": "http://lorempixel.com/170/171"
+    "image": "/static/media/cake.a29c0b43.png"
   },
   {
     "id": 3,
-    "image": "http://lorempixel.com/170/170"
+    "image": "/static/media/circus.e27c88e5.png"
   },
   {
     "id": 4,
-    "image": "http://lorempixel.com/170/173"
+    "image": "/static/media/game.107d31e8.png"
   },
   {
     "id": 5,
-    "image": "http://lorempixel.com/170/169"
+    "image": "/static/media/safe.7dfdcf55.png"
   },
   {
     "id": 6,
-    "image": "http://lorempixel.com/170/168"
-  },
-  {
-    "id": 7,
-    "image": "http://lorempixel.com/170/167"
-  },
-  {
-    "id": 8,
-    "image": "http://lorempixel.com/169/170"
+    "image": "/static/media/submarine.8fad4ff9.png"
   }
 ]
