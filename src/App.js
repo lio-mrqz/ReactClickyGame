@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Score from './components/Score'
 import GameArea from './components/GameArea'
 import './App.css';
